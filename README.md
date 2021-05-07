@@ -4,9 +4,27 @@ This entire project is starting out as an opinionated, specific guide for "Futur
 
 But who cares? Let's see the **topics/scenarios** that I want documented.
 
+- `IMPORTANT!` Set user name and email
 - Start a new project from scratch
 - Make a change to an existing project
 - Complete a feature branch
+
+---
+
+## Set user name and email
+
+I didn't do this and it used out-dated info, but it still worked.
+
+1. Set the global values.
+```
+> git config --global user.name "Rob Henry"
+> git config --global user.email "roberthenry@email.com"
+```
+
+2. Verify the values.
+```
+> git config --list
+```
 
 ---
 
@@ -98,3 +116,13 @@ Start with a non-existent folder and end up with a repo on GitHub.
 ---
 
 ## Complete a feature branch
+
+1. Clone the remote repo to your local machine and navigate to the folder
+```
+> git clone https://github.com/eb35/git-docs.git
+> cd git-docs
+```
+
+2. Create a new branch and switch to it.
+```
+> git branch 
