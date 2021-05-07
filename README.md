@@ -6,7 +6,7 @@ But who cares? Let's see the **topics/scenarios** that I want documented.
 
 - Start a new project from scratch
 - Make a change to an existing project
-- TODO: what next?
+- Complete a feature branch
 
 ---
 
@@ -95,3 +95,6 @@ Start with a non-existent folder and end up with a repo on GitHub.
 > git push
 ```
 
+---
+
+## Complete a feature branch
