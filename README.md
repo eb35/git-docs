@@ -127,3 +127,16 @@ Start with a non-existent folder and end up with a repo on GitHub.
 ```
 🔰 git branch chevron-icon
 🔰 git checkout chevron-icon
+```
+
+3. Make your changes, stage them, and commit them.
+```
+🔰 git add .
+🔰 git commit -m "trying out chevrons"
+```
+
+4. Push the branch and the changes we made up to the remote repo.
+```
+🔰 git push --set-upstream origin chevron-icon
+```
+
