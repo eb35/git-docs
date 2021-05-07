@@ -89,3 +89,9 @@ Start with a non-existent folder and end up with a repo on GitHub.
 > Only updating the readme
 > "
 ```
+
+7. Push the changes to the remote repo.
+```
+> git push
+```
+
