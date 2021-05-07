@@ -59,3 +59,33 @@ Start with a non-existent folder and end up with a repo on GitHub.
 ---
 
 ## Make a change to an existing project
+
+1. Start by getting the remote repo's URL.
+
+2. Then clone the remote repo to your local machine
+```
+> git clone https://github.com/eb35/git-docs.git
+```
+
+3. Navigate to the folder.
+```
+> cd git-docs
+```
+
+4. Open in VS Code and make changes to the file.
+```
+> code .
+```
+
+5. Stage the changes. This time I'm using the period (.) to stage all the changes, instead of listing the files explicitly.
+```
+> git add .
+```
+
+6. Commit the changes to the local repo. This time I'm making a multi-line comment.
+```
+> git commit -m "
+> Adding an additional scenario
+> Only updating the readme
+> "
+```
