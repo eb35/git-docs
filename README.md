@@ -17,13 +17,13 @@ I didn't do this and it used out-dated info, but it still worked.
 
 1. Set the global values.
 ```
-> git config --global user.name "Rob Henry"
-> git config --global user.email "roberthenry@email.com"
+🔰 git config --global user.name "Rob Henry"
+🔰 git config --global user.email "roberthenry@email.com"
 ```
 
 2. Verify the values.
 ```
-> git config --list
+🔰 git config --list
 ```
 
 ---
@@ -34,30 +34,30 @@ Start with a non-existent folder and end up with a repo on GitHub.
 
 1. Create the folder while initializing a brand-new repo.
 ```
-> git init git-docs
+🔰 git init git-docs
 ```
 
 2. Navigate to the folder.
 ```
-> cd git-docs
+🔰 cd git-docs
 ```
 
 3. Open in VS Code.
 ```
-> code .
+🔰 code .
 ```
 
 4. Create the `README.md` file (however you want).
 
 5. Stage the file.
 ```
-> git add README.md
+🔰 git add README.md
 ```
 > This is the same as checking the box on the TortoiseSVN Commit window.
 
 6. Commit the changes.
 ```
-> git commit -m "Added the README.md file"
+🔰 git commit -m "Added the README.md file"
 ```
 > This only commits the change that we staged LOCALLY. "It ain't on GitHub yet!"
 
@@ -65,13 +65,13 @@ Start with a non-existent folder and end up with a repo on GitHub.
 
 8. Point our local repo to the remote repo that we created and verify it.
 ```
-> git remote add origin https://github.com/eb35/git-docs.git
-> git remote -v
+🔰 git remote add origin https://github.com/eb35/git-docs.git
+🔰 git remote -v
 ```
 
 9. Push our repo on up to GitHub.
 ```
-> git push origin master
+🔰 git push origin master
 ```
 
 ---
@@ -82,35 +82,35 @@ Start with a non-existent folder and end up with a repo on GitHub.
 
 2. Then clone the remote repo to your local machine
 ```
-> git clone https://github.com/eb35/git-docs.git
+🔰 git clone https://github.com/eb35/git-docs.git
 ```
 
 3. Navigate to the folder.
 ```
-> cd git-docs
+🔰 cd git-docs
 ```
 
 4. Open in VS Code and make changes to the file.
 ```
-> code .
+🔰 code .
 ```
 
 5. Stage the changes. This time I'm using the period (.) to stage all the changes, instead of listing the files explicitly.
 ```
-> git add .
+🔰 git add .
 ```
 
 6. Commit the changes to the local repo. This time I'm making a multi-line comment.
 ```
-> git commit -m "
-> Adding an additional scenario
-> Only updating the readme
-> "
+🔰 git commit -m "
+🔰 Adding an additional scenario
+🔰 Only updating the readme
+🔰 "
 ```
 
 7. Push the changes to the remote repo.
 ```
-> git push
+🔰 git push
 ```
 
 ---
@@ -119,10 +119,11 @@ Start with a non-existent folder and end up with a repo on GitHub.
 
 1. Clone the remote repo to your local machine and navigate to the folder
 ```
-> git clone https://github.com/eb35/git-docs.git
-> cd git-docs
+🔰 git clone https://github.com/eb35/git-docs.git
+🔰 cd git-docs
 ```
 
 2. Create a new branch and switch to it.
 ```
-> git branch 
+🔰 git branch chevron-icon
+🔰 git checkout chevron-icon
