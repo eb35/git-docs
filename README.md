@@ -185,4 +185,7 @@ You made a new branch (see above) or you contributed to a remote branch (see abo
 🔰 git merge chevron-icon
 ```
 
-3. Probably need to stage and commit, but I'll do that later...
+3. I guess you don't need to stage and commit the changes. You just need to push.
+```
+🔰 git push
+```
