@@ -9,6 +9,7 @@ But who cares? Let's see the **topics/scenarios** that I want documented.
 - Make a change to an existing project
 - Complete a feature branch
 - Checkout an existing remote branch
+- Merge that branch
 
 ---
 
@@ -136,7 +137,7 @@ Start with a non-existent folder and end up with a repo on GitHub.
 🔰 git commit -m "trying out chevrons"
 ```
 
-4. Push the branch and the changes we made up to the remote repo.
+4. Push the brand-new branch AND the changes we made up to the remote repo.
 ```
 🔰 git push --set-upstream origin chevron-icon
 ```
@@ -163,3 +164,25 @@ So I might be missing a step because I had problems getting the remote branch ch
 🔰 git checkout chevron-icon
 ```
 
+4. Make changes (like normal), stage them, commit them, and push them.
+```
+🔰 git add .
+🔰 git commit -m "Hoping this works..."
+🔰 git push
+```
+
+## Merge that branch
+
+You made a new branch (see above) or you contributed to a remote branch (see above), but now you're done and the branch has served its purpose and it's all been committed. Now merge that branch!
+
+1. Switch to the main branch (a.k.a. the Trunk).
+```
+🔰 git checkout master
+```
+
+2. Now merge it.
+```
+🔰 git merge chevron-icon
+```
+
+3. Probably need to stage and commit, but I'll do that later...
