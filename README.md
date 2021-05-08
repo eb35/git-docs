@@ -175,17 +175,23 @@ So I might be missing a step because I had problems getting the remote branch ch
 
 You made a new branch (see above) or you contributed to a remote branch (see above), but now you're done and the branch has served its purpose and it's all been committed. Now merge that branch!
 
-1. Switch to the main branch (a.k.a. the Trunk).
+1. Make sure that your up-to-date on your branch.
 ```
-🔰 git checkout master
+🔰 git pull
 ```
 
-2. Now merge it.
+2. Switch to the main branch (a.k.a. the Trunk) and make sure it is up-to-date.
+```
+🔰 git checkout master
+🔰 git pull
+```
+
+3. Now merge it.
 ```
 🔰 git merge chevron-icon
 ```
 
-3. I guess you don't need to stage and commit the changes. You just need to push.
+4. I guess you don't need to stage and commit the changes. You just need to push.
 ```
 🔰 git push
 ```
