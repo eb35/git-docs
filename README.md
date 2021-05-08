@@ -164,6 +164,12 @@ So I might be missing a step because I had problems getting the remote branch ch
 🔰 git checkout chevron-icon
 ```
 
+> OR replace Steps #1-3 with the following command:
+```
+🔰 git clone https://github.com/eb35/git-docs.git -b chevron-icon
+```
+
+
 4. Make changes (like normal), stage them, commit them, and push them.
 ```
 🔰 git add .
