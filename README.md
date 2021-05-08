@@ -8,6 +8,7 @@ But who cares? Let's see the **topics/scenarios** that I want documented.
 - Start a new project from scratch
 - Make a change to an existing project
 - Complete a feature branch
+- Checkout an existing remote branch
 
 ---
 
@@ -138,5 +139,27 @@ Start with a non-existent folder and end up with a repo on GitHub.
 4. Push the branch and the changes we made up to the remote repo.
 ```
 🔰 git push --set-upstream origin chevron-icon
+```
+
+---
+
+## Checkout an existing remote branch
+
+So I might be missing a step because I had problems getting the remote branch changes after cloning the repo and then moving into the remote branch, but now this seems to work... A possible `fetch` command might fix your issue though 🙄.
+
+1. Clone the remote repo to your local machine and navigate to the folder
+```
+🔰 git clone https://github.com/eb35/git-docs.git
+🔰 cd git-docs
+```
+
+2. List all the branches (remote and local).
+```
+🔰 git branch -a
+```
+
+3. Do the normal checkout command to switch to the branch.
+```
+🔰 git checkout chevron-icon
 ```
 
