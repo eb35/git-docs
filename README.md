@@ -87,6 +87,13 @@ Start with a non-existent folder and end up with a repo on GitHub.
 🔰 git clone https://github.com/eb35/git-docs.git
 ```
 
+NOTE: You can specify the folder name or clone the repo into the current folder as well.
+```
+🔰 git clone https://github.com/eb35/git-docs.git folder-name
+🔰 git clone https://github.com/eb35/git-docs.git .
+```
+
+
 3. Navigate to the folder.
 ```
 🔰 cd git-docs
@@ -177,6 +184,11 @@ So I might be missing a step because I had problems getting the remote branch ch
 🔰 git push
 ```
 
+> This may only affect 🦊GitLab, but I had to run the following to checkout a remote branch. `git checkout -b branch-name origin/remote-branch-name`
+```
+🔰 git checkout -b chevron-icon origin/chevron-icon
+```
+
 ## Merge that branch
 
 You made a new branch (see above) or you contributed to a remote branch (see above), but now you're done and the branch has served its purpose and it's all been committed. Now merge that branch!
@@ -200,4 +212,9 @@ You made a new branch (see above) or you contributed to a remote branch (see abo
 4. I guess you don't need to stage and commit the changes. You just need to push.
 ```
 🔰 git push
+```
+
+> Again, this may only affect 🦊GitLab, but I had to run the following to push my local branch to the a remote branch. `git push -u origin branch-name` After the first time, you can just run `git push`.
+```
+🔰 git push -u origin chevron-icon
 ```
